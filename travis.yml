@@ -1,4 +1,7 @@
 dist: freebsd
+os: freebsd
+
+install: skip
 
 script:
 - ruby -v
