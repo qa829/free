@@ -1,5 +1,5 @@
 dist: freebsd
-os: freebsd
+group:  edge
 
 install: skip
 
