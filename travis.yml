@@ -3,3 +3,4 @@ dist: freebsd
 script:
 - ruby -v
 - uname -a
+- df -h
