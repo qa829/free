@@ -1,9 +1,15 @@
 dist: freebsd
 group:  dev
+language: go
+
+go:
+- 1.11
+- 1.12
+- 1.13
 
 install: skip
 
 script:
-- ruby -v
+- go version
 - uname -a
 - df -h
