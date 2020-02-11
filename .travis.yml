@@ -3,6 +3,11 @@ group: dev
 # language: ruby
 language: java
 
+jdk:
+  - oraclejdk8
+  - oraclejdk9
+  - openjdk8
+  
 # rvm:
 # - 2.5.3
 # - 2.5.6
