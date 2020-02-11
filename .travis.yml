@@ -4,9 +4,10 @@ group: dev
 language: java
 
 jdk:
-  - oraclejdk8
-  - oraclejdk9
-  - openjdk8
+#   - oraclejdk8
+#   - oraclejdk9
+  - openjdk10
+  - openjdk11
   
 # rvm:
 # - 2.5.3
