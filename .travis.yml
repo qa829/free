@@ -6,8 +6,8 @@ language: java
 jdk:
 #   - oraclejdk8
 #   - oraclejdk9
-  - openjdk10
-  - openjdk11
+#   - openjdk10
+#   - openjdk11
   
 # rvm:
 # - 2.5.3
@@ -25,6 +25,10 @@ jdk:
 # install: skip
 
 script:
+- mkdir -p ~/bin
+- curl -o ~/bin/jdk_switcher.sh https://raw.githubusercontent.com/michaelklishin/jdk_switcher/1e091549285fb0f2591cef679b4135cfbfcc0b4c/jdk_switcher.sh
+- export PATH=$PATH:~/bin
+- jdk_switcher use openjdk11
 # - go version
 # - ruby -v
 - uname -a
