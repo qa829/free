@@ -3,7 +3,7 @@ group: dev
 # language: ruby
 language: java
 
-jdk:
+# jdk:
 #   - oraclejdk8
 #   - oraclejdk9
 #   - openjdk10
