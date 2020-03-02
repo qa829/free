@@ -1,5 +1,5 @@
 dist: freebsd
-group: dev
+# group: dev
 # language: ruby
 language: python
 
