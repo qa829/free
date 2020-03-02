@@ -1,11 +1,15 @@
 # dist: freebsd
 os: freebsd
-# group: dev
+group: dev
 # language: ruby
 language: python
 
-addons:
-  artifacts: true
+python:
+- 3.7
+- 3.8
+
+# addons:
+#   artifacts: true
   
 # jdk:
 #   - oraclejdk8
