@@ -3,6 +3,9 @@ group: dev
 # language: ruby
 # language: python
 
+addons:
+  artifacts: true
+  
 # jdk:
 #   - oraclejdk8
 #   - oraclejdk9
