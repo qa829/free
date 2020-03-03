@@ -1,13 +1,13 @@
 # dist: freebsd
 os: bsd
 group: dev
-# language: ruby
-language: python
+language: ruby
+# language: python
 
-python:
-- 3.7
-- 3.8
-- 3.8.0
+# python:
+# - 3.7
+# - 3.8
+# - 3.8.0
 
 addons:
   pkg:
@@ -37,10 +37,11 @@ addons:
 # - 1.13
 # - 1.13.4
 
-# install: skip
+install: skip
 
 script:
-- python -V
+# - python -V
+- ruby -v
 # - mkdir -p ~/bin
 # - curl -o ~/bin/jdk_switcher https://raw.githubusercontent.com/michaelklishin/jdk_switcher/1e091549285fb0f2591cef679b4135cfbfcc0b4c/jdk_switcher.sh
 # # - export PATH=$PATH:~/bin
