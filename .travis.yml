@@ -9,11 +9,11 @@ language: ruby
 # - 3.8
 # - 3.8.0
 
-# addons:
-#   pkg:
-#     packages:
-#     - cmake
-#     - vim
+addons:
+  pkg:
+    packages:
+    - cmake
+    - vim
     
 # addons:
 #   artifacts: true
@@ -41,9 +41,9 @@ install: skip
 
 script:
 # - python -V
-- echo $TRAVIS_TMPDIR
-- echo 'aa' > ${TRAVIS_TMPDIR}/99-travis-pkg-conf 
-- cat ${TRAVIS_TMPDIR}/99-travis-pkg-conf
+# - echo $TRAVIS_TMPDIR
+# - echo 'aa' > ${TRAVIS_TMPDIR}/99-travis-pkg-conf 
+# - cat ${TRAVIS_TMPDIR}/99-travis-pkg-conf
 - cat /usr/local/etc/pkg.conf
 - ruby -v
 # - mkdir -p ~/bin
