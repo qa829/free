@@ -9,11 +9,11 @@ language: ruby
 # - 3.8
 # - 3.8.0
 
-# addons:
-#   pkg:
-#     packages:
-#     - cmake
-#     - vim
+addons:
+  pkg:
+    packages:
+    - cmake
+    - vim
 
 # addons:
 #   artifacts: true
