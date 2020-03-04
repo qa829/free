@@ -9,11 +9,11 @@ language: ruby
 # - 3.8
 # - 3.8.0
 
-addons:
-  pkg:
-    packages:
-    - cmake
-    - vim
+# addons:
+#   pkg:
+#     packages:
+#     - cmake
+#     - vim
     
 # addons:
 #   artifacts: true
@@ -41,6 +41,7 @@ install: skip
 
 script:
 # - python -V
+- cat /usr/local/etc/pkg.conf
 - ruby -v
 # - mkdir -p ~/bin
 # - curl -o ~/bin/jdk_switcher https://raw.githubusercontent.com/michaelklishin/jdk_switcher/1e091549285fb0f2591cef679b4135cfbfcc0b4c/jdk_switcher.sh
