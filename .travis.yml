@@ -1,6 +1,6 @@
 # dist: freebsd
-os: bsd
-group: edge
+# os: bsd
+# group: edge
 # language: ruby
 language: python
 
